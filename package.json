@@ -18,11 +18,23 @@
   },
   "homepage": "https://github.com/amdiag/web3.0#readme",
   "description": "",
+
   "dependencies": {
-    "accepts": "file:accepts-1.3.8.tgz",
-    "array-flatten": "file:array-flatten-1.1.1.tgz",
-    "mime-db": "file:mime-db-1.51.0.tgz",
-    "mime-types": "file:mime-types-2.1.34.tgz",
-    "negotiator": "file:negotiator-0.6.3.tgz"
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "express": "^4.16.4"
+},
+"devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/runtime-corejs2": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "babel-preset-es2015": "^6.24.1",
+    "cross-env": "^5.2.0",
+    "webpack": "^4.17.2",
+    "webpack-cli": "^3.1.0"
 }
 }
